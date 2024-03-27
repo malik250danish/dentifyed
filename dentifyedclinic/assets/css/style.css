@@ -720,4 +720,14 @@
     .pabs {
         right: 21%;
     }
+
+    .navbar::before {
+        height: 80px;
+    }
+}
+
+@media(max-width:768px) {
+    .active::before {
+        bottom: 8px;
+    }
 }
