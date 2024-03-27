@@ -903,6 +903,13 @@ input[type="checkbox"] {
     width: 18px;
 }
 
+.imgPost {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
 @media(max-width:992px) {
     .main100vh {
         height: auto;
@@ -939,5 +946,12 @@ input[type="checkbox"] {
 
     .navbar::before {
         height: 80px;
+    }
+}
+
+@media(max-width:768px) {
+    .active::before {
+        left: 0;
+        bottom: 7px;
     }
 }
