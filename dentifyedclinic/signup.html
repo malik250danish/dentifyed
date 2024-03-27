@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>dentifyd</title>
+    <!-- bootstrap style link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- font-awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body class="">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-transparent navNew">
+      <div class="container-fluid z-2">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/logodenti.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="d-flex justify-content-around w-100 flex-wrap py-2">
+            <form class="d-flex position-relative" role="search">
+              <input
+                class="form-control me-2 search pe-4"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+                style="width: 350px"
+              />
+              <img
+                src="./assets/images/icons/searchicon.png"
+                alt=""
+                width="15px"
+                height="15px"
+                class="searchIcon"
+              />
+            </form>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link navT" aria-current="page" href="./login.html"
+                  >Login</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active navT" href="#">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- nav bar end -->
+
+    <!-- main -->
+    <main class="container-fluid main main90vh">
+      <div class="container h-100" style="z-index: 2">
+        <div class="row h-100">
+          <div
+            class="col-md-4 my-2 align-self-center z-2 h-100 d-flex justify-content-center align-items-center"
+          >
+            <div>
+              <h1 class="he1">
+                Welcome to <br />
+                dentifyd
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat volutpat.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-8 my-2 align-self-center z-2 h-100 d-flex justify-content-center align-items-center"
+          >
+            <form class="card cardAuth" id="form1">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-6 my-2">
+                    <input
+                      class="form-control py-2 my-2 formInput"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="First Name"
+                    />
+                  </div>
+                  <div class="col-md-6 my-2">
+                    <input
+                      class="form-control py-2 my-2 formInput"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Last Name"
+                    />
+                  </div>
+                  <div class="col-md-6 my-2">
+                    <input
+                      class="form-control py-2 my-2 formInput"
+                      type="email"
+                      name=""
+                      id=""
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div class="col-md-6 my-2">
+                    <input
+                      class="form-control py-2 my-2 formInput"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Phone Number"
+                    />
+                  </div>
+                  <div class="col-md-6 my-2">
+                    <div class="position-relative">
+                      <select
+                        class="form-control py-2 formInput w-100"
+                        name=""
+                        id=""
+                      >
+                        <option value="" selected>Category</option>
+                        <option value="">Option 1</option>
+                        <option value="">Option 1</option>
+                      </select>
+                      <img
+                        class="selIcon2"
+                        src="./assets/images/icons/slectIcon.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6 my-2">
+                    <div class="position-relative">
+                      <input
+                        class="form-control py-2 formInput"
+                        type="password"
+                        name=""
+                        id="password"
+                        placeholder="Password"
+                      />
+                      <span id="eye"><i class="fa-solid fa-eye"></i></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <a class="my-2"
+                    ><p class="forgText">Forgot Your Password?</p></a
+                  >
+                </div>
+                <div class="d-flex justify-content-between my-2">
+                  <button class="btn btnLog px-5 py-2 disabled">Back</button>
+                  <button class="btn btnLog px-5 py-2" id="next">Next</button>
+                </div>
+                <div class="my-2">
+                  <p class="text-center fs1 fsbf2">Or continue with</p>
+                </div>
+                <div
+                  class="my-2 d-flex justify-content-center align-items-center flex-wrap gap-1"
+                >
+                  <button class="btn btnfacebook px-5 py-2 mx-2">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </button>
+                  <button class="btn btngoogle px-5 py-2 mx-2">
+                    <i class="fa-brands fa-google"></i>
+                  </button>
+                  <button class="btn btnapple px-5 py-2 mx-2">
+                    <i class="fa-brands fa-apple"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+            <form class="card cardAuth d-none" id="form2">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-12 my-2">
+                    <label for="" class="flabel"
+                      >Which treatments you provide?</label
+                    >
+                    <input
+                      class="form-control py-2 my-2 formInput"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Write Here"
+                    />
+                  </div>
+                  <div class="col-md-12 my-2">
+                    <label for="" class="flabel">how many Surgery?</label>
+                    <input
+                      class="form-control py-2 my-2 formInput"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="write here"
+                    />
+                  </div>
+                  <div class="col-md-12 my-2">
+                    <div class="row">
+                      <label for="" class="flabel">
+                        What type of practice :</label
+                      >
+                      <div class="col-auto pt-2">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="practiceType"
+                            id="nhs"
+                            value="nhs"
+                          />
+                          <label class="form-check-label" for="nhs"
+                            >Predominantly NHS</label
+                          >
+                        </div>
+                      </div>
+                      <div class="col-auto pt-2">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="practiceType"
+                            id="private"
+                            value="private"
+                          />
+                          <label class="form-check-label" for="private"
+                            >Fully Private</label
+                          >
+                        </div>
+                      </div>
+                      <div class="col-auto pt-2">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="practiceType"
+                            id="mixed"
+                            value="mixed"
+                          />
+                          <label class="form-check-label" for="mixed"
+                            >Mixed</label
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-12 my-2">
+                    <label for="" class="flabel"
+                      >Do they provide specialist services ?</label
+                    >
+                    <div class="position-relative">
+                      <select
+                        class="form-control py-2 formInput w-100"
+                        name=""
+                        id=""
+                      >
+                        <option value="" selected>Advance Oral Surgery</option>
+                        <option value="">Option 1</option>
+                        <option value="">Option 1</option>
+                      </select>
+                      <img
+                        class="selIcon2"
+                        src="./assets/images/icons/slectIcon.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 my-2">
+                    <label for="" class="flabel">Clinic Adress</label>
+                    <div class="">
+                      <input
+                        class="form-control py-2 formInput"
+                        type="text"
+                        name=""
+                        placeholder="clinic Address"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6 my-2">
+                    <label for="" class="flabel">Post Code</label>
+                    <input
+                      class="form-control py-2 my-2 formInput"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Post Code"
+                    />
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-between my-2">
+                  <button class="btn btnLog px-5 py-2" id="back">Back</button>
+                  <button class="btn btnLog px-5 py-2">Sign Up</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- main end -->
+    <!-- footer  -->
+    <footer class="footer p-2 d-flex justify-content-center align-items-center">
+      <p class="text-center m-0 fs2">
+        Copyright © 2024-2025 dentifyd. All rights reserved.
+      </p>
+    </footer>
+    <!-- footer end -->
+
+    <!-- bootstrap scripts   -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <!-- custom script -->
+    <script>
+      let eye = document.getElementById("eye");
+      let password = document.getElementById("password");
+
+      eye.onclick = () => {
+        if (password.type == "password") {
+          password.type = "text";
+        } else {
+          password.type = "password";
+        }
+      };
+      let nextBtn = document.getElementById("next");
+      let backBtn = document.getElementById("back");
+      let form1 = document.getElementById("form1");
+      let form2 = document.getElementById("form2");
+      nextBtn.onclick = (e) => {
+        e.preventDefault();
+
+        form1.classList.add("d-none");
+        form2.classList.remove("d-none");
+      };
+      backBtn.onclick = (e) => {
+        e.preventDefault();
+        form1.classList.remove("d-none");
+        form2.classList.add("d-none");
+      };
+    </script>
+  </body>
+</html>

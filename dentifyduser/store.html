@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>dentifyd</title>
+    <!-- bootstrap style link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- font-awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body class="">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid z-2">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/logodenti.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            class="d-flex justify-content-around w-100 flex-wrap py-2 flex-column flex-lg-row"
+          >
+            <form class="d-flex position-relative" role="search">
+              <input
+                class="form-control me-2 search pe-4"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+                style="width: 350px"
+              />
+              <img
+                src="./assets/images/icons/searchicon.png"
+                alt=""
+                width="15px"
+                height="15px"
+                class="searchIcon"
+              />
+            </form>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item mx-2">
+                <a class="nav-link navT" aria-current="page" href="./forum.html"
+                  >Forum</a
+                >
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link navT" aria-current="page" href="./quiz.html"
+                  >Quizes</a
+                >
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link navT" aria-current="page" href="./chat.html"
+                  >Chat</a
+                >
+              </li>
+              <li class="nav-item mx-2">
+                <a
+                  class="nav-link navT active"
+                  aria-current="page"
+                  href="./Store.html"
+                  >Store</a
+                >
+              </li>
+              <li class="nav-item mx-2 ms-md-4">
+                <a
+                  class="d-flex text-decoration-none"
+                  href="./userprofile.html"
+                >
+                  <img
+                    class="proImage"
+                    src="./assets/images/chatimage.png"
+                    alt=""
+                  />
+                  <div class="ms-2">
+                    <p class="up1 m-0">Elenor Pina</p>
+                    <p class="up2 m-0">Clinic</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- nav bar end -->
+    <!-- main -->
+    <main class="">
+      <div class="container-fluid bgContainer">
+        <div class="container" style="z-index: 2">
+          <div class="row h-100 py-3 justify-content-center">
+            <div class="col-md-6 my-2">
+              <div class="">
+                <h1 class="he1 text-center">dentifyd Store</h1>
+                <p class="text-center">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                  aliquam erat volutpat.
+                </p>
+              </div>
+              <div class="my-2 position-relative">
+                <img
+                  class="seIcon z-2"
+                  src="./assets/images/icons/searchicon.png"
+                  alt=""
+                />
+                <input
+                  class="form-control formInput px-5"
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Location"
+                />
+                <img
+                  class="loIcon"
+                  src="./assets/images/icons/location.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid bgFe">
+        <div class="container my-2">
+          <div class="row my-2">
+            <div class="col-md-12 my-2">
+              <div class="w-100 row">
+                <div class="col-md-8">
+                  <p class="fs3">Patients</p>
+                </div>
+                <div class="col-md-4">
+                  <div
+                    class="d-flex align-items-center gap-1 position-relative"
+                  >
+                    <select class="form-control formInput w-100" name="" id="">
+                      <option value="" selected>New Patients</option>
+                      <option value="">Option 1</option>
+                      <option value="">Option 1</option>
+                    </select>
+                    <img
+                      class="selIcon"
+                      src="./assets/images/icons/slectIcon.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row my-2">
+            <div class="col-md-4 my-2">
+              <a href="./product.html" class="card overCard">
+                <div class="card-body">
+                  <div>
+                    <img class="tImg2" src="./assets/images/st1.png" alt="" />
+                  </div>
+                  <div class="my-2">
+                    <p class="fs6">Woodpecker Endo Motor (Endo Radar Pro)</p>
+                    <p class="fs6">$120.00</p>
+                    <p class="fs5 mb-0">Double the speed ~ 2500rpm</p>
+                    <p class="fs5 mb-0">
+                      ATR Technique (Adaptive Torque Reverse)
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 my-2">
+              <a href="./product.html" class="card overCard">
+                <div class="card-body">
+                  <div>
+                    <img class="tImg2" src="./assets/images/st1.png" alt="" />
+                  </div>
+                  <div class="my-2">
+                    <p class="fs6">Woodpecker Endo Motor (Endo Radar Pro)</p>
+                    <p class="fs6">$120.00</p>
+                    <p class="fs5 mb-0">Double the speed ~ 2500rpm</p>
+                    <p class="fs5 mb-0">
+                      ATR Technique (Adaptive Torque Reverse)
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 my-2">
+              <a href="./product.html" class="card overCard">
+                <div class="card-body">
+                  <div>
+                    <img class="tImg2" src="./assets/images/st1.png" alt="" />
+                  </div>
+                  <div class="my-2">
+                    <p class="fs6">Woodpecker Endo Motor (Endo Radar Pro)</p>
+                    <p class="fs6">$120.00</p>
+                    <p class="fs5 mb-0">Double the speed ~ 2500rpm</p>
+                    <p class="fs5 mb-0">
+                      ATR Technique (Adaptive Torque Reverse)
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 my-2">
+              <a href="./product.html" class="card overCard">
+                <div class="card-body">
+                  <div>
+                    <img class="tImg2" src="./assets/images/st1.png" alt="" />
+                  </div>
+                  <div class="my-2">
+                    <p class="fs6">Woodpecker Endo Motor (Endo Radar Pro)</p>
+                    <p class="fs6">$120.00</p>
+                    <p class="fs5 mb-0">Double the speed ~ 2500rpm</p>
+                    <p class="fs5 mb-0">
+                      ATR Technique (Adaptive Torque Reverse)
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 my-2">
+              <a href="./product.html" class="card overCard">
+                <div class="card-body">
+                  <div>
+                    <img class="tImg2" src="./assets/images/st1.png" alt="" />
+                  </div>
+                  <div class="my-2">
+                    <p class="fs6">Woodpecker Endo Motor (Endo Radar Pro)</p>
+                    <p class="fs6">$120.00</p>
+                    <p class="fs5 mb-0">Double the speed ~ 2500rpm</p>
+                    <p class="fs5 mb-0">
+                      ATR Technique (Adaptive Torque Reverse)
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 my-2">
+              <a href="./product.html" class="card overCard">
+                <div class="card-body">
+                  <div>
+                    <img class="tImg2" src="./assets/images/st1.png" alt="" />
+                  </div>
+                  <div class="my-2">
+                    <p class="fs6">Woodpecker Endo Motor (Endo Radar Pro)</p>
+                    <p class="fs6">$120.00</p>
+                    <p class="fs5 mb-0">Double the speed ~ 2500rpm</p>
+                    <p class="fs5 mb-0">
+                      ATR Technique (Adaptive Torque Reverse)
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 my-2">
+              <a href="./product.html" class="card overCard">
+                <div class="card-body">
+                  <div>
+                    <img class="tImg2" src="./assets/images/st1.png" alt="" />
+                  </div>
+                  <div class="my-2">
+                    <p class="fs6">Woodpecker Endo Motor (Endo Radar Pro)</p>
+                    <p class="fs6">$120.00</p>
+                    <p class="fs5 mb-0">Double the speed ~ 2500rpm</p>
+                    <p class="fs5 mb-0">
+                      ATR Technique (Adaptive Torque Reverse)
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer  -->
+    <footer class="footer p-2 d-flex justify-content-center align-items-center">
+      <p class="text-center m-0 fs2">
+        Copyright © 2024-2025 dentifyd. All rights reserved.
+      </p>
+    </footer>
+    <!-- footer end -->
+
+    <!-- bootstrap scripts   -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  </body>
+</html>
